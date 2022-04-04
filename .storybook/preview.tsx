@@ -7,4 +7,4 @@ addDecorator((story) => (
   <ThemeProvider theme={theme as any}>{story()}</ThemeProvider>
 ));
 
-configure([require.context('../src/', true, /\.stories\.(tsx|mdx)$/)], module);
+configure([require.context('../stories/', true, /\.stories\.(tsx|mdx)$/)], module);
