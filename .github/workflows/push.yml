@@ -42,6 +42,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.BJERKBOT_GITHUB_TOKEN }}
-          external_repository: bjerkio/theme-ui-skeleton
+          github_token: ${{ secrets.BJERKBOT_GITHUB_TOKEN }}
           publish_dir: ./storybook-static
