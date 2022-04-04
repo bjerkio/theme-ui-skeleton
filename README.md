@@ -1,30 +1,13 @@
-# Theme-UI Components for Next.js
+# Theme-UI Skeleton
 
-This package contains a few small components to help using Theme UI with
-Next.js.
+<img src=".github/skeleton.svg" alt="Theme UI Skeleton">
 
-Specifically, this means `<Link>` and `<NavLink>`. If you use the components
-from this package, the components will be using `<Link />` components from
-`next/link` instead of a regular `<a />`.
+This package contains a small components to help build skeleton loading.
 
 ## Quickstart
 
 ```shell
-▶ yarn add next-theme-ui
-```
-
-Replace these imports:
-
-```typescript
-import { Link } from '@theme-ui/components';
-import { NavLink } from '@theme-ui/components';
-```
-
-with
-
-```typescript
-import { Link } from 'next-theme-ui';
-import { NavLink } from 'next-theme-ui';
+▶ yarn add theme-ui-skeleton
 ```
 
 ## Contribute
