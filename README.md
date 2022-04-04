@@ -2,7 +2,7 @@
 
 <img src=".github/skeleton.gif" alt="Theme UI Skeleton">
 
-This package contains a small components to help build skeleton loading.
+This package contains a small component to help build skeleton loading.
 
 ## Quickstart
 
