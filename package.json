@@ -22,7 +22,7 @@
     "theme-ui",
     "skeleton"
   ],
-  "prettier": "@cobraz/prettier-config",
+  "prettier": "@simenandre/prettier",
   "devDependencies": {
     "@bjerk/eslint-config": "^1.0.0",
     "@cobraz/prettier-config": "^1.0.1",
