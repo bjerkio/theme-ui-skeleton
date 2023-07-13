@@ -1,14 +1,9 @@
 module.exports = {
-  extends: ['@bjerk/eslint-config', 'plugin:jest/recommended'],
-  plugins: ['jest'],
-  overrides: [
-    {
-      files: 'jest.config.*',
-      rules: {
-        'import/no-default-export': 'off',
-      },
-    },
-  ],
+  extends: ['@bjerk/eslint-config', 'next/core-web-vitals'],
+  rules: {
+    'import/no-default-export': 'off',
+    'react/display-name': 'off',
+  },
   parserOptions: {
     project: true,
     tsconfigRootDir: __dirname,
