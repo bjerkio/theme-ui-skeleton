@@ -24,7 +24,7 @@
   ],
   "prettier": "@simenandre/prettier",
   "devDependencies": {
-    "@bjerk/eslint-config": "^1.0.0",
+    "@bjerk/eslint-config": "^5.0.0",
     "@cobraz/prettier-config": "^1.0.1",
     "@emotion/jest": "^11.8.0",
     "@storybook/addon-docs": "^6.3.4",
